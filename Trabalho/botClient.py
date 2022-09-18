@@ -11,3 +11,4 @@ while True:
     clientSocket.send(msgcli.encode())
     if msgcli == "5":
         clientSocket.close()
+        break
